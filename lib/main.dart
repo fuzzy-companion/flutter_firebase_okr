@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
       theme: LightTheme.lightThemeConfig,
       themeMode: ThemeMode.system,
       home: const MyHomePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
