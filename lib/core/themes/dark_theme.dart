@@ -17,12 +17,16 @@ class DarkTheme {
     onSurface: Color(0xFFE5E7EB),
 
     // Error → error states
-    error: Colors.red,
+    error: Colors.redAccent,
     onError: Colors.black,
 
     // Text on buttons
     onPrimary: Colors.black,
     onSecondary: Colors.black,
+
+    // constant
+    onPrimaryFixed: Colors.white,
+    onSecondaryFixed: Colors.black,
   );
 
   static final ThemeData darkThemeConfig = ThemeData(

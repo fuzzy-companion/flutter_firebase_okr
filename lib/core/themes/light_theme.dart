@@ -23,6 +23,10 @@ class LightTheme {
     // Text on buttons
     onPrimary: Colors.white,
     onSecondary: Colors.white,
+
+    // constant color
+    onPrimaryFixed: Colors.white,
+    onSecondaryFixed: Colors.black,
   );
 
   static final ThemeData lightThemeConfig = ThemeData(
